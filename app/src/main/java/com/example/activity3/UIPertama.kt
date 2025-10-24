@@ -50,7 +50,7 @@ fun ActivitasPertama(modifier: Modifier){
         //menambahkan spacer untuk memberi jarak antara judul dan card
         Spacer(modifier = Modifier.height(height = 25.dp))
 
-        Card(
+        Card(//membuat layout card untuk tempat logo teks dll.
             modifier = Modifier
                 .fillMaxWidth(fraction = 1f)
                 .padding(all = 12.dp),
