@@ -56,7 +56,7 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(
                 containerColor = Color.DarkGray
             )
-        ) {
+        ) { //Membuat Box
             Row() {
                 val gambar = painterResource(R.drawable.logo_umy)
                 Image(
