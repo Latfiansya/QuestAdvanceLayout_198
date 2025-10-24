@@ -57,7 +57,7 @@ fun ActivitasPertama(modifier: Modifier){
                 containerColor = Color.DarkGray
             )
         ) { //Membuat Box
-            Row() {
+            Row() {//menambahkan gambar (logo)
                 val gambar = painterResource(R.drawable.logo_umy)
                 Image(
                     painter = gambar,
