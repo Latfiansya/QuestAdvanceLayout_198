@@ -77,7 +77,7 @@ fun ActivitasPertama(modifier: Modifier){
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
-                    Text(//
+                    Text(//menambahkan teks alamat
                             text = stringResource(id = R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.White,
