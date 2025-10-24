@@ -47,6 +47,7 @@ fun ActivitasPertama(modifier: Modifier){
             text = stringResource(id = R.string.univ),
             fontSize = 22.sp
         )
+        //menambahkan spacer untuk memberi jarak antara judul dan card
         Spacer(modifier = Modifier.height(height = 25.dp))
 
         Card(
