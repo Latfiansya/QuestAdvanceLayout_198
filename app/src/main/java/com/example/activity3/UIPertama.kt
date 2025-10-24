@@ -60,7 +60,7 @@ fun ActivitasPertama(modifier: Modifier){
         ) { //Membuat Box
             Row() {//menambahkan gambar (logo)
                 val gambar = painterResource(R.drawable.logo_umy)
-                Image(
+                Image(//mengatur posisi gambar
                     painter = gambar,
                     contentDescription = null,
                     modifier = Modifier
