@@ -90,7 +90,7 @@ fun ActivitasPertama(modifier: Modifier){
             modifier = Modifier
                 .fillMaxSize()
         ){
-            Text(
+            Text(//menambahkan teks copyright
                 text = stringResource(id = R.string.copy),
                 modifier = Modifier
                     .align(Alignment.BottomCenter)
