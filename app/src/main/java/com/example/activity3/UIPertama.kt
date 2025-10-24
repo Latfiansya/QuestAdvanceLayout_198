@@ -38,7 +38,7 @@ fun ActivitasPertama(modifier: Modifier){
         horizontalAlignment = Alignment.CenterHorizontally
 
     ){//Membuat Judul
-        Text(
+        Text(//Menambahkan teks prodi
             text = stringResource(id = R.string.prodi),
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold
