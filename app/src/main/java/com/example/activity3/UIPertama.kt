@@ -86,7 +86,7 @@ fun ActivitasPertama(modifier: Modifier){
                 }
             }
         }
-        Box(
+        Box( //Membuat Box untuk mengisi ruang kosong di tengah layar
             modifier = Modifier
                 .fillMaxSize()
         ){
