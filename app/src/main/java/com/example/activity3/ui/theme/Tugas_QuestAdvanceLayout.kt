@@ -135,16 +135,16 @@ fun Profile(modifier: Modifier = Modifier) {
                         Spacer(modifier = Modifier.width(20.dp))
 
                         Text(
-                            text = stringResource(id = R.string.prodi),
+                            text = stringResource(id = R.string.keamanan),
                             fontSize = 25.sp,
-                            fontFamily = FontFamily.Cursive, // 🖋️ font italic
+                            fontFamily = FontFamily.Cursive,
                             color = Color.Black
                         )
 
                         Text(
                             text = stringResource(id = R.string.prodi),
                             fontSize = 25.sp,
-                            fontFamily = FontFamily.Cursive, // 🖋️ font italic
+                            fontFamily = FontFamily.Cursive,
                             color = Color.Black
                         )
                     }
