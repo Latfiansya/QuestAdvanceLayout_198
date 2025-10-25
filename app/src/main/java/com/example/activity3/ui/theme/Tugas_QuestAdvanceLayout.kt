@@ -132,7 +132,7 @@ fun Profile(modifier: Modifier = Modifier) {
                                 .padding(all = 5.dp)
                         )
 
-                        Spacer(modifier = Modifier.width(20.dp))
+                        Spacer(modifier = Modifier.width(17.dp))
 
                         Text(
                             text = stringResource(id = R.string.keamanan),
@@ -181,7 +181,7 @@ fun Profile(modifier: Modifier = Modifier) {
                                 .padding(all = 5.dp)
                         )
 
-                        Spacer(modifier = Modifier.width(20.dp))
+                        Spacer(modifier = Modifier.width(17.dp))
 
                         Text(
                             text = stringResource(id = R.string.riwayat),
@@ -201,6 +201,9 @@ fun Profile(modifier: Modifier = Modifier) {
                     )
                 }
             }
+            Spacer(modifier = Modifier.height(25.dp))
+
+
 
         }
     }
