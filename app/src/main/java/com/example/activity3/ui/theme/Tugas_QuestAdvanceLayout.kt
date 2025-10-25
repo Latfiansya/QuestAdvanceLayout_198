@@ -43,5 +43,8 @@ fun Profile(modifier: Modifier = Modifier) {
                 .border(3.dp, Color.Gray, CircleShape),
             contentScale = ContentScale.Crop
         )
+
+        Spacer(modifier = Modifier.height(20.dp))
+
     }
 }
