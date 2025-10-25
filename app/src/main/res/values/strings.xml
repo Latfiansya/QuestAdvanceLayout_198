@@ -2,7 +2,11 @@
     <string name="app_name">Activity 3</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
-    <string name="nama">Yikri</string>
+    <string name="nama">Yikri_198</string>
     <string name="alamat">Mekkah, Ngidul Sitik</string>
     <string name="copy">copyright, 2025</string>
+    <string name="email">yikri.ft23@mail.umy.ac.id</string>
+    <string name="keamanan">Privacy</string>
+    <string name="riwayat">Riwayat Transaksi</string>
+    <string name="setting">Pengaturan</string>
 </resources>
