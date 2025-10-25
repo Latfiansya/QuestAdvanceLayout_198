@@ -128,7 +128,7 @@ fun Profile(modifier: Modifier = Modifier) {
                             painter = gambar,
                             contentDescription = null,
                             modifier = Modifier
-                                .size(60.dp)
+                                .size(57.dp)
                                 .padding(all = 5.dp)
                         )
 
@@ -136,15 +136,8 @@ fun Profile(modifier: Modifier = Modifier) {
 
                         Text(
                             text = stringResource(id = R.string.keamanan),
-                            fontSize = 25.sp,
-                            fontFamily = FontFamily.Cursive,
-                            color = Color.Black
-                        )
-
-                        Text(
-                            text = stringResource(id = R.string.prodi),
-                            fontSize = 25.sp,
-                            fontFamily = FontFamily.Cursive,
+                            fontSize = 20.sp,
+                            fontWeight = FontWeight.Bold,
                             color = Color.Black
                         )
                     }
