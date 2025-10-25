@@ -103,5 +103,7 @@ fun Profile(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
+            Spacer(modifier = Modifier.height(25.dp))
+
     }
 }
