@@ -86,12 +86,12 @@ fun Profile(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
-            Spacer(modifier = Modifier.height(10.dp))
+            Spacer(modifier = Modifier.height(7.dp))
 
             Text(
                 text = stringResource(id = R.string.email),
                 fontSize = 15.sp,
-                color = Color.White
+                color = Color.Gray
             )
 
             Spacer(modifier = Modifier.height(10.dp))
@@ -227,7 +227,7 @@ fun Profile(modifier: Modifier = Modifier) {
                             painter = gambar,
                             contentDescription = null,
                             modifier = Modifier
-                                .size(60.dp)
+                                .size(55.dp)
                                 .padding(all = 5.dp)
                         )
 
@@ -235,7 +235,7 @@ fun Profile(modifier: Modifier = Modifier) {
 
                         Text(
                             text = stringResource(id = R.string.setting),
-                            fontSize = 25.sp,
+                            fontSize = 20.sp,
                             fontWeight = FontWeight.Bold,
                             color = Color.Black
                         )
@@ -250,6 +250,17 @@ fun Profile(modifier: Modifier = Modifier) {
                             .padding(end = 8.dp)
                     )
                 }
+            }
+            Box(
+                modifier = Modifier.fillMaxSize()
+            ) {
+                Text(
+                    text = stringResource(id = R.string.copy),
+                    color = Color.White,
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .padding(bottom = 50.dp)
+                )
             }
 
         }
