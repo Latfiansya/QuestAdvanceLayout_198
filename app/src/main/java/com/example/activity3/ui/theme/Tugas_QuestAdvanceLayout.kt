@@ -152,6 +152,7 @@ fun Profile(modifier: Modifier = Modifier) {
                     )
                 }
             }
+            Spacer(modifier = Modifier.height(25.dp))
         }
     }
 }
