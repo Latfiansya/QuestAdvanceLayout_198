@@ -203,7 +203,54 @@ fun Profile(modifier: Modifier = Modifier) {
             }
             Spacer(modifier = Modifier.height(25.dp))
 
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 24.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color.White
+                )
+            ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 10.dp, vertical = 5.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        val gambar =
+                            painterResource(id = R.drawable.settings)
+                        Image(
+                            painter = gambar,
+                            contentDescription = null,
+                            modifier = Modifier
+                                .size(60.dp)
+                                .padding(all = 5.dp)
+                        )
 
+                        Spacer(modifier = Modifier.width(17.dp))
+
+                        Text(
+                            text = stringResource(id = R.string.setting),
+                            fontSize = 25.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = Color.Black
+                        )
+                    }
+
+                    val iconDropdown = painterResource(id = R.drawable.dropdown)
+                    Image(
+                        painter = iconDropdown,
+                        contentDescription = "Dropdown Icon",
+                        modifier = Modifier
+                            .size(30.dp)
+                            .padding(end = 8.dp)
+                    )
+                }
+            }
 
         }
     }
